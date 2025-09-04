@@ -16,7 +16,7 @@ Backend uses CORS to allow frontend requests
 
 Automatic server restart with nodemon
 
-movie-search/
+''' movie-search/
 │
 ├── backend/                # Node.js backend
 │   ├── server.js           # Express server and API routes
@@ -28,7 +28,7 @@ movie-search/
     │   └── index.html      # HTML template for React
     └── src/                # React source code
         ├── App.js          # Main React component
-        └── index.js        # React entry point
+        └── index.js        # React entry point**
 
 
 ## Getting Started
