@@ -16,20 +16,20 @@ Backend uses CORS to allow frontend requests
 
 Automatic server restart with nodemon
 
-## Project Structure
 movie-search/
 │
-├─ backend/
-│   ├─ server.js
-│   └─ package.json
+├── backend/                # Node.js backend
+│   ├── server.js           # Express server and API routes
+│   └── package.json        # Backend dependencies & scripts
 │
-└─ frontend/
-    ├─ package.json
-    ├─ public/
-    │   └─ index.html
-    └─ src/
-        ├─ App.js
-        └─ index.js
+└── frontend/               # React frontend
+    ├── package.json        # Frontend dependencies & scripts
+    ├── public/             # Public files
+    │   └── index.html      # HTML template for React
+    └── src/                # React source code
+        ├── App.js          # Main React component
+        └── index.js        # React entry point
+
 
 ## Getting Started
 ## 1. Clone the repository
